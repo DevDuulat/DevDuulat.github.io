@@ -18,6 +18,7 @@ export default defineConfig({
   output: "static",
   build: {
     inlineStylesheets: "auto",
+    site: "https://devduulat.github.io",
   },
   server: {
     host: true,
