@@ -8,7 +8,7 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [tailwind(), react()],
   site: "https://devduulat.github.io",
-  base: "portfolio",
+  base: "/portfolio/",
   vite: {
     resolve: {
       alias: {
