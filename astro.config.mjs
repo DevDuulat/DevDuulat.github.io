@@ -7,6 +7,8 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), react()],
+  site: "https://devduulat.github.io",
+  base: "portfolio",
   vite: {
     resolve: {
       alias: {
@@ -18,7 +20,6 @@ export default defineConfig({
   output: "static",
   build: {
     inlineStylesheets: "auto",
-    site: "https://devduulat.github.io",
   },
   server: {
     host: true,
